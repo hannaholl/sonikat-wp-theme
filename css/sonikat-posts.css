@@ -1,0 +1,14 @@
+.instagram-media {
+  margin: 10px auto !important;
+}
+
+.soni-posts {
+  margin: 20px 0 0 0;
+}
+
+/*.archive-post-even, .archive-post-odd {*/
+.archive-content {
+  border-top: 5px solid #3FB575;
+  /*background: rgba(100, 200, 90, .5);*/
+  /*rgba(0,162,196, 0.9)*/
+}

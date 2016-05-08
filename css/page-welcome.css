@@ -1,0 +1,36 @@
+.site-content {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.welcome-title {
+  text-align: center;
+}
+
+.page-welcome .soni-left-col {
+  padding: 0 30px;
+  width: 60%;
+}
+
+.page-welcome .wp-post-image {
+  border-radius: 5px;
+  float: right;
+  width: 35%;
+}
+
+@media(max-width: 660px) {
+  .page-welcome {
+    text-align: center;
+  }
+  .page-welcome .wp-post-image {
+    float: none;
+    margin-bottom: 15px;
+    width: 50%
+  }
+  .page-welcome .soni-left-col {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+  }
+}

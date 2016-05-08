@@ -10,3 +10,33 @@
  Tags:         photo, responsive-layout, accessibility-ready
  Text Domain:  photo-perfect-child
 */
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+
+body {
+  font-family: 'Arvo', serif;
+  font-size: 17px;
+}
+
+h1, h2 {
+  color: #B0319B;
+  font-family: Lora, sefif;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h2,
+h2 a,
+h2 a:focus,
+h2 a:active,
+h2 a:visited {
+  color: #3FB575;
+  font-size: 30px;
+}
+
+p {
+  color: #333;
+  font-family: 'Arvo', serif;
+  font-size: 17px;
+  line-height: 30px;
+}

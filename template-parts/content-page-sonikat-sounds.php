@@ -22,14 +22,14 @@
 
 		?>
 
-		<?php 
+		<?php
 
 			$custom_fields = get_post_custom();
-			$playlists = $custom_fields['soundloudPlaylist'];
+			$playlists = $custom_fields['soundcloudPlaylist'];
 			$songs = $custom_fields['soundcloudSong'];
 		?>
 
-		<?php 
+		<?php
 			foreach ($playlists as &$playlist){
 		?>
 	    		<div class="track-playlist">

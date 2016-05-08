@@ -13,26 +13,25 @@
 
 	<div class="entry-content">
     <?php
-	  /**
-	   * Hook - photo_perfect_single_image.
-	   *
-	   * @hooked photo_perfect_add_image_in_single_display -  10
-	   */
-	  do_action( 'photo_perfect_single_image' );
+	  if ( has_post_thumbnail() ) {
+		  	the_post_thumbnail();
+		}
 	?>
-		<?php the_content(); ?>
-		<?php
-			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span>' . esc_html__( 'Pages:', 'photo-perfect' ) . '</span>',
-				'after'       => '</div>',
-				'link_before' => '<span>',
-				'link_after'  => '</span>',
-			) );
-		?>
+		<div class="soni-left-col">
+			<?php the_title( '<h1 class="welcome-title">', '</h1>' ); ?>
+			<?php the_content(); ?>
+			<?php
+				wp_link_pages( array(
+					'before'      => '<div class="page-links"><span>' . esc_html__( 'Pages:', 'photo-perfect' ) . '</span>',
+					'after'       => '</div>',
+					'link_before' => '<span>',
+					'link_after'  => '</span>',
+				) );
+			?>
+		</div>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php edit_post_link( esc_html__( 'Edit', 'photo-perfect' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
-

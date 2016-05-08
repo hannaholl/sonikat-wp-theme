@@ -1,0 +1,30 @@
+.track{
+	width: 100%;
+	display: block;
+	position: relative;
+	height: 0;
+	padding-bottom: 56.25%;
+	margin: 30px 0 0 0;
+}
+
+.track iframe {
+	width: 100%;
+	border: none;
+  	height: 100%;
+  	position: absolute;
+  	margin: auto 0;
+
+}
+
+.track-playlist {
+	margin: 30px 0 0 0;
+}
+/*
+@media(max-width: ) {
+    .track{
+    	width: 49%;
+    	display: inline-block;
+    }
+}
+*/
+
